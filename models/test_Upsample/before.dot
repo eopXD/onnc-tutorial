@@ -1,0 +1,11 @@
+digraph {
+  InputOperator_94845818735984 [label=InputOperator]
+  InputOperator_94845818735984 -> x
+  x [shape=rect]
+  Upsample_94845818826000 [label=Upsample]
+  x -> Upsample_94845818826000
+  Upsample_94845818826000 -> y
+  y [shape=rect]
+  OutputOperator_94845818767568 [label=OutputOperator]
+  y -> OutputOperator_94845818767568
+}
